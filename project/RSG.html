@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RSG</title>
+	<link type="text/css" href="/project/head/system.css" rel="stylesheet"/>
+	<link type="text/css" href="/project/head/custom.css" rel="stylesheet"/>
+	<script type="text/javascript" src="/project/head/custom.js"></script>
+
+	<!-- <style>
+		body {
+			background-image: url("/figure/rs_distri.jpg");
+			background-repeat: no-repeat;
+			background-size: 800px; /* 
+		} -->
+	<!-- </style> -->
+
+</head>
+
+<body marginheight="0">
+<div align="center"><h1>Scene Graph Generation in Large-Size VHR Satellite Imagery: A Large-Scale Dataset and A Context-Aware Approach<br></h1></div>
+
+<p style="text-align: center">Author 1, Author 2, Author 3</p>
+
+	<!--
+<div style="border: 18px solid #FFFFFF"></div>
+<p style="font-size: 12px; color: orange; text-align: center">The <b>Five-Billion-Pixels</b> dataset is released!</p>
+        -->
+
+<div style="border: 9px solid #FFFFFF"></div>
+<div id="tab6" class="tabMenu">
+    <div id="firstPage-tab6" class="show">
+        <video width="800" controls autoplay loop>
+            <source src="/figure/demo2.mp4" type="video/mp4" label="4k">
+        </video>
+    </div>
+</div>
+<div style="border: 9px solid #FFFFFF"></div>
+
+
+
+<!-- <h2>Introduction</h2>
+<p>Scene graph generation (SGG) in remote sensing imagery (RSI) is crucial for cognitive understanding of geospatial scenes, but it faces unique challenges compared to perceptual recognition tasks such as object detection. In RSI, objects exhibit great variations in scales and aspect ratios, and there exist rich semantic relationships between objects (even between spatially disjoint objects). To ensure that high-value relationships between multi-scale objects can be fully mined, it is necessary to holistically conduct SGG in large-size very-high-resolution (VHR) RSI. However, the lack of SGG datasets with large-size VHR RSI has constrained the advancement of SGG. Due to the complexity of large-size VHR RSI, many triplets
+	 &lt;subject, relationship, object&gt; in large-size VHR RSI heavily rely on long-range contextual reasoning, making it inevitably impossible to directly apply SGG models from small-size natural imagery to large-size VHR RSI. To address the scarcity of datasets, this paper constructs a large-scale SGG dataset, named RSG, containing more than 210,000 objects and over 400,000 triplets in large-size VHR RSI. The dataset covers 1,273 sampling locations globally, with image sizes ranging from 512 × 768 to 27,860 × 31,096 pixels. Furthermore, we propose a context-aware cascade cognition (CAC) framework to understand RSI from different levels. In the CAC framework, a holistic multi-class object detection network (HOD-Net) is firstly employed to detect multi-scale objects in large-size VHR RSI, and then a proposal pair generation (PPG) network via adversarial reconstruction and a relationship prediction network with context-aware messaging (RPCM) are designed to acquire semantic interaction pairs containing rich knowledge as well as to predict high-value semantic relationships implicit in these pairs. To promote the development of SGG in large-size VHR RSI, this paper releases an SGG toolkit with five SGG methods and develops a benchmark where our RPCM outperforms the SOTA method with a large margin of 3.52%, 5.17%, and 3.80% on HM@1500 for PredCls, SGCls, and SGDet tasks.</p> -->
+
+<h3>RSG Dataset</h3>
+<p>To address the dataset scarcity problem, we construct RSG, a large-scale dataset with more than 210,000 objects and over 400,000 triplets for SGG in large-size VHR SAI. In this dataset, SAI with a spatial resolution of 0.15m to 1m is collected, and is spread over the world. Under the guidance of experts in SAI, all objects are classified into 48 categories and annotated with oriented bounding boxes (OBBs), and all relationships are annotated in accordance with 8 major categories including 58 subcategories. Compared with existing OBD and SGG datasets in SAI, RSG stands out by annotating multi-scale objects and fine-grained relationships in large-size VHR SAI containing kinds of complex scenarios (\eg, airports, ports, nuclear power stations, and dams). In conclusion, RSG has significant advantages over existing OBD datasets and SGG datasets in SAI.
+	<br>
+	<img src="/figure/微信图片_20240530120144.jpg" width="800px">    
+
+
+
+<style>
+	.tabMenu ul {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		padding: 0;
+		margin: 0;
+		align-items: center;
+	}
+
+	.tabMenu ul li {
+		white-space: nowrap;
+	}
+</style>
+	
+
+
+<div style="border: 9px solid #FFFFFF"></div>
+<div id = "tab1" class = "tabMenu">
+	<ul>
+	<li class="on"><h4>Geographical Distribution</h4></li>
+        <li class="off"><h4>Objects</h4></li>
+		<li class="off"><h4>Relationships</h4></li>
+        <li class="off"><h4>Download Links</h4></li>
+        </ul>
+	<div id="firstPage-tab1" class="show">
+	<img src="/figure/distr.jpg" width="800px">
+        </div>
+
+        <div id="secondPage-tab1" class= "hide">
+	    <img src="/figure/obj.jpg" width="800px">
+      	</div>
+
+		<div id="thirdPage-tab1" class="hide">
+		<img src="/figure/rel.jpg" width="800px">
+
+		</div>
+		<div id="fourthPage-tab1" class="hide">
+		
+<!-- 		
+        </div>
+        <div id="thirdPage" class = "hide"> -->
+
+	<li style="margin-top: 5px" class = "dot"><span class = "lin">Baidu Drive: <a href=""><b>Future opening soon</b></a> </span></li>
+	<li style="margin-top: 5px" class = "dot"><span class = "lin">Google Drive: <a href=""><b>Future opening soon</b></a> </span></li>
+		
+
+	<!-- <li style="margin-top: 5px" class = "dot"><span class = "lin">Baidu Drive: <a href="https://pan.baidu.com/s/1TVh9nLjjrLPaJp4yR5qHow?pwd=urxy"><b>Link (extraction code: urxy)</b></a> </span></li>
+	<li style="margin-top: 5px" class = "dot"><span class = "lin">Google Drive: <a href="https://drive.google.com/drive/folders/1VACDh3aGx72hDdz7Taf7FyUrpZS31Ksx?usp=share_link"><b>Link</b></a> </span></li>
+		 -->
+	</div>
+</div>
+<div style="border: 9px solid #FFFFFF"></div>
+
+
+
+
+<h3>Acknowledge</h3>
+<p>This work was supported by the National Natural Science Foundation of China.</p>
+<!-- <p>This web page is highly based on <a href="https://github.com/x-ytong/x-ytong.github.io">x-ytong.github.io</a>. We thank their web projects!</p> -->
+
+<h3>Contact</h3>
+<p>E-mail: wangll@whu.edu.cn; tingzhu.wang@whu.edu.cn</p>
+
+<div style="border:40px solid #FFFFFF"></div>
+
+
+</body>
+</html>
